@@ -1,3 +1,9 @@
+@media (max-width: 600px) {
+    #area-do-jogo, #area-esquerda {
+        width: 100%;
+    }
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
