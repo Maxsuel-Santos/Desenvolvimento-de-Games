@@ -2,13 +2,17 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background: linear-gradient(to right, cyan, blue);
+}
+
 #area-do-jogo {
     margin-left: auto;
     margin-right: auto;
     margin-top: -5px;
     height: 650px;
     width: 750px;
-    background-color: aqua;
+    background: linear-gradient(to right, yellow, orange);
 }
 
 #area-esquerda {
@@ -26,3 +30,21 @@ footer:hover {
     background-color: rgb(219, 222, 224);
     cursor: pointer;
 }
+
+#interrogacao {
+    position: absolute;
+}
+
+#mascote {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin-left: 245px;
+    margin-top: 250px;
+}
+#start {
+    margin-left: 270px;
+    margin-right: 245px;
+    margin-top: 40px;
+    cursor: pointer;
+ }
